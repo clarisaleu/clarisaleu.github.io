@@ -24,9 +24,9 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   width: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 .offcanvas #page {
   overflow: hidden;
@@ -286,7 +286,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 30px 0;
   padding: 0;
   line-height: 1.2;
-  font-size: 50px;
+  font-size: 40px;
+  font-size: 3.8vw;
   font-family: "Lora", serif;
 }
 @media screen and (max-width: 480px) {
@@ -502,50 +503,6 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
 }
 
-#fh5co-footer {
-  padding: 7em 0;
-  font-size: 16px !important;
-  background: #f7f7f7;
-  font-size: 20px;
-}
-#fh5co-footer a, #fh5co-footer p {
-  font-size: 16px !important;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-footer {
-    padding: 3em 0;
-  }
-}
-#fh5co-footer a {
-  color: #000;
-}
-#fh5co-footer a:hover, #fh5co-footer a:active, #fh5co-footer a:focus {
-  color: #52D681;
-}
-#fh5co-footer .fh5co-footer-widget {
-  float: left;
-  width: 100%;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-footer .fh5co-footer-widget {
-    margin-bottom: 30px;
-  }
-}
-#fh5co-footer .gtco-social a {
-  margin-right: 20px;
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-}
-#fh5co-footer .gtco-social-wrap {
-  text-align: right;
-}
-@media screen and (max-width: 992px) {
-  #fh5co-footer .gtco-social-wrap {
-    text-align: left !important;
-  }
-}
 
 .gtco-nav-toggle {
   width: 25px;
