@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #52D681;
+  color: #E0CA26;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52D681;
+  color: #E0CA26;
   outline: none;
   text-decoration: none;
 }
@@ -65,23 +65,23 @@ p {
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Work", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #52D681;
+  background: #E0CA26;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #52D681;
+  background: #E0CA26;
 }
 
 ::selection {
   color: #fff;
-  background: #52D681;
+  background: #E0CA26;
 }
 
 .gtco-container {
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .gtco-nav ul li.btn-cta a {
-  color: #52D681;
+  color: #E0CA26;
 }
 .gtco-nav ul li.btn-cta a span {
   background: #fff;
@@ -279,21 +279,20 @@ h1, h2, h3, h4, h5, h6, figure {
   color: white !important;
 }
 .gtco-social a:hover, .gtco-social a:focus, .gtco-social a:active, .gtco-social li a:hover, .gtco-social li a:focus, .gtco-social li a:active {
-  color: #52D681 !important;
+  color: #E0CA26 !important;
 }
 
 #gtco-intro h2 {
   margin: 0 0 30px 0;
   padding: 0;
   line-height: 1.2;
-  font-size: 40px;
-  font-size: 3.8vw;
+  font-size: 8vw;
   font-family: "Lora", serif;
 }
 @media screen and (max-width: 480px) {
   #gtco-intro h2 {
-    font-size: 30px;
-    line-height: 1.4;
+    font-size: 40px;
+    line-height: 1.2;
   }
 }
 #gtco-intro .sub {
@@ -312,9 +311,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(top right, #52D681, #1FDEDB);
-  background: -webkit-gradient(linear, right top, left bottom, from(#52D681), to(#1FDEDB));
-  background: linear-gradient(top right, #52D681, #1FDEDB);
+  background: -webkit-linear-gradient(top right, #E0CA26, #B73316);
+  background: -webkit-gradient(linear, right top, left bottom, from(#E0CA26), to(#B73316));
+  background: linear-gradient(top right, #E0CA26, #B73316);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -415,9 +414,9 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   top: 0;
   z-index: 8;
-  background: -webkit-linear-gradient(top right, #52D681, #1FDEDB);
-  background: -webkit-gradient(linear, right top, left bottom, from(#52D681), to(#1FDEDB));
-  background: linear-gradient(top right, #52D681, #1FDEDB);
+  background: -webkit-linear-gradient(top right, #E0CA26, #B73316);
+  background: -webkit-gradient(linear, right top, left bottom, from(#E0CA26), to(#B73316));
+  background: linear-gradient(top right, #E0CA26, #B73316);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -616,7 +615,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #52D681;
+  border-color: #E0CA26;
 }
 
 .row-pb-md {

@@ -2,22 +2,11 @@ $font-primary: 'Work', sans-serif;
 $font-secondary: 'Lora', serif;
 
 // Overrides
-$grid-gutter-width: 40px; 
-$border-radius-base:  4px;
-$padding-base-vertical: 14px;
-
-$brand-primary: #52D681;
-$brand-secondary: #118DF0; 
-$brand-special: #52D681;
-
 $brand-white: #fff;
 $brand-black: #000;
 $brand-darker: #444;
 $brand-gray: #ccc;
 $brand-lighter: #e9e9e9;
-$brand-body-color: #818892;
-$brand-selection-color: #f9f6f0;
-$brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
 
 $input-border-focus: $brand-primary;
@@ -54,16 +43,16 @@ $form-group-margin-bottom: 30px;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -78,7 +67,7 @@ $form-group-margin-bottom: 30px;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -90,10 +79,10 @@ $form-group-margin-bottom: 30px;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -102,7 +91,7 @@ $form-group-margin-bottom: 30px;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 
@@ -110,7 +99,7 @@ body {
 	font-family: $font-secondary;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.9;
+	line-height: 2.9;
 
 	color: #757575;
 	background: #fff;
@@ -120,12 +109,12 @@ body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	width: 100%;
-	
+
 	@include transition(.5s);
 	.offcanvas & {
-		overflow: hidden;	
+		overflow: hidden;
 		position: absolute;
-		
+
 		&:after {
 			@include transition(2s);
 			position: absolute;
@@ -206,7 +195,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			color: $brand-white;
 		}
 	}
-	
+
 	.menu-1, .menu-2 {
 		@media screen and (max-width: $screen-sm ) {
 			display: none;
@@ -249,7 +238,7 @@ h1, h2, h3, h4, h5, h6, figure {
 						margin-top: -7px;
 						right: 0;
 						color: #ccc;
-					}	
+					}
 				}
 				.dropdown {
 					width: 130px;
@@ -364,10 +353,10 @@ h1, h2, h3, h4, h5, h6, figure {
 		margin: 0 0 30px 0;
 		padding: 0;
 		line-height: 1.2;
-		font-size: 50px;
+		font-size: 90px;
 		font-family: $font-secondary;
 		@media screen and (max-width: $screen-xs) {
-			font-size: 30px;
+			font-size: 80px;
 			line-height: 1.4;
 		}
 	}
@@ -375,7 +364,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		font-family: $font-secondary;
 	}
 	.dtc {
-		min-height: 700px;
+		min-height: 800px;
 	}
 }
 .dt {
@@ -385,16 +374,16 @@ h1, h2, h3, h4, h5, h6, figure {
 		vertical-align: middle;
 	}
 }
-.gradient-text {
-	background:-webkit-linear-gradient(top right,$brand-primary,#1FDEDB);
-	background:-webkit-gradient(linear,right top,left bottom,from($brand-primary),to(#1FDEDB));
-	background:linear-gradient(top right,$brand-primary,#1FDEDB);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
-	position:relative;
-	font-weight: 400;
-}
 
+.gradient-text {
+  background: -webkit-linear-gradient(top right, #E0CA26, #B73316);
+  background: -webkit-gradient(linear, right top, left bottom, from(#E0CA26), to(#B73316));
+  background: linear-gradient(top right, #E0CA26, #B73316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  font-weight: 400;
+}
 .gototop {
 	position: fixed;
 	bottom: 20px;
@@ -425,7 +414,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			text-decoration: none;
 			outline: none;
 		}
-	}	
+	}
 }
 
 #gtco-project {
@@ -478,9 +467,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 				// background: rgba(0, 0, 0, .5);
 
-				background:-webkit-linear-gradient(top right,$brand-primary,#1FDEDB);
-				background:-webkit-gradient(linear,right top,left bottom,from($brand-primary),to(#1FDEDB));
-				background:linear-gradient(top right,$brand-primary,#1FDEDB);
+				background:-webkit-linear-gradient(top right,$brand-primary,#efd126);
+				background:-webkit-gradient(linear,right top,left bottom,from($brand-primary),to(#B73316));
+				background:linear-gradient(top right,$brand-primary,#efd126);
 
 				@include transition(.5s)
 			}
@@ -511,7 +500,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 			}
 			&:hover {
-				
+
 
 				@media screen and (max-width: $screen-sm ) {
 					bottom: 0;
@@ -542,7 +531,7 @@ h1, h2, h3, h4, h5, h6, figure {
 					transform: scale(1.1);
 
 					@media screen and (max-width: $screen-sm ) {
-						
+
 						-webkit-transform: scale(1.0);
 						-moz-transform: scale(1.0);
 						-o-transform: scale(1.0);
@@ -583,7 +572,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 
 	.fh5co-footer-widget {
-		float: left; 
+		float: left;
 		width: 100%;
 		@media screen and (max-width: $screen-sm) {
 			margin-bottom: 30px;
@@ -716,14 +705,14 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding: 15px 30px;
 	text-transform: uppercase;
 	text-shadow: none!important;
-	
-	
+
+
 	&.btn-sm {
 		padding: 10px 20px!important;
 	}
-	
+
 	&:hover, &:active, &:focus {
-		
+
 		outline: none!important;
 		-webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.10);
 		-moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.10);
@@ -841,16 +830,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-gradient {
-	background:-webkit-linear-gradient(top right,$brand-primary,#1FDEDB);
-	background:-webkit-gradient(linear,right top,left bottom,from($brand-primary),to(#1FDEDB));
-	background:linear-gradient(top right,$brand-primary,#1FDEDB);
+	background:-webkit-linear-gradient(top right,$brand-primary,#B73316);
+	background:-webkit-gradient(linear,right top,left bottom,from($brand-primary),to(#B73316));
+	background:linear-gradient(top right,$brand-primary,#B73316);
 	color: rgba($brand-white, .7);
 	border: none!important;
 	&:hover, &:focus, &:active {
 		color: $brand-white;
-		background:-webkit-linear-gradient(top right,$brand-primary,#1FDEDB);
-		background:-webkit-gradient(linear,right top,left bottom,from($brand-primary),to(#1FDEDB));
-		background:linear-gradient(top right,$brand-primary,#1FDEDB);
+		background:-webkit-linear-gradient(top right,$brand-primary,#B73316);
+		background:-webkit-gradient(linear,right top,left bottom,from($brand-primary),to(#B73316));
+		background:linear-gradient(top right,$brand-primary,#B73316);
 	}
 }
 
@@ -950,4 +939,3 @@ h1, h2, h3, h4, h5, h6, figure {
 		opacity: 0;
 	}
 }
-
