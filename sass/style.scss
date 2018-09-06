@@ -352,11 +352,11 @@ h1, h2, h3, h4, h5, h6, figure {
 	h2 {
 		margin: 0 0 30px 0;
 		padding: 0;
-		line-height: 1.2;
-		font-size: 90px;
+		line-height: 1.4;
+		font-size: 50px;
 		font-family: $font-secondary;
 		@media screen and (max-width: $screen-xs) {
-			font-size: 80px;
+			font-size: 30px;
 			line-height: 1.4;
 		}
 	}
