@@ -1,6 +1,6 @@
 
-p {
-  font-size: 40px !important;
+span{
+  font-size: 6vh !important;
   line-height: 2;
 }
 
@@ -24,7 +24,7 @@ p {
 }
 
 
-p {
+span {
   padding: 40px;
 }
 ul {
@@ -67,7 +67,7 @@ img {
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 650px;
+  width: 80vh;
   left: 42%;
   top: 57%;
   opacity: 0;
