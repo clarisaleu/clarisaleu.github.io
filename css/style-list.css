@@ -1,7 +1,7 @@
 
-span{
-  font-size: 6vh !important;
-  line-height: 2;
+div span p{
+  font-size: 38px !important;
+  line-height: .2;
 }
 
 .indent{
@@ -67,7 +67,7 @@ img {
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 80vh;
+  width: 680px;
   left: 42%;
   top: 57%;
   opacity: 0;
