@@ -1,7 +1,11 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx');
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix')
+      format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +15,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.9;
@@ -43,15 +47,15 @@ body {
   left: 0;
   z-index: 101;
   background: rgba(0, 0, 0, 0.7);
-  content: "";
+  content: '';
 }
-.contain{
-    bottom:0;
-    margin: auto !important;
-    width: 50% !important;
+.contain {
+  bottom: 0;
+  margin: auto !important;
+  width: 50% !important;
 }
 
-.footer-note{
+.footer-note {
   position: absolute;
   bottom: 0 !important;
   margin: auto !important;
@@ -59,13 +63,15 @@ body {
 }
 
 a {
-  color: #E0CA26;
+  color: rgb(255, 255, 0);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-a:hover, a:active, a:focus {
-  color: #E0CA26;
+a:hover,
+a:active,
+a:focus {
+  color: rgb(255, 255, 0);
   outline: none;
   text-decoration: none;
 }
@@ -74,26 +80,32 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
   color: #000;
-  font-family: "Work", sans-serif;
+  font-family: 'Work', sans-serif;
   font-weight: 300;
   margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #E0CA26;
+  background: rgb(255, 255, 0);
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #E0CA26;
+  background: rgb(255, 255, 0);
 }
 
 ::selection {
   color: #fff;
-  background: #E0CA26;
+  background: rgb(255, 255, 0);
 }
 
 .gtco-container {
@@ -112,7 +124,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 30px 0;
   z-index: 1001;
-  font-family: "Work", sans-serif;
+  font-family: 'Work', sans-serif;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -134,13 +146,14 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  .gtco-nav .menu-1, .gtco-nav .menu-2 {
+  .gtco-nav .menu-1,
+  .gtco-nav .menu-2 {
     display: none;
   }
 }
 .gtco-nav ul {
   padding: 0;
-  margin: .4em 0 0 0;
+  margin: 0.4em 0 0 0;
 }
 .gtco-nav ul li {
   padding: 0;
@@ -148,11 +161,11 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
   display: inline;
   line-height: 1.5;
-  font-family: "Work", sans-serif;
+  font-family: 'Work', sans-serif;
 }
 .gtco-nav ul li > a {
   font-size: 16px;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 .gtco-nav ul li a {
   font-size: 16px;
@@ -162,7 +175,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
+.gtco-nav ul li a:hover,
+.gtco-nav ul li a:focus,
+.gtco-nav ul li a:active {
   color: #000;
 }
 .gtco-nav ul li.has-dropdown {
@@ -183,7 +198,7 @@ h1, h2, h3, h4, h5, h6, figure {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\e921";
+  content: '\e921';
   font-style: 10px;
   position: absolute;
   top: 50%;
@@ -217,7 +232,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 100%;
   left: 40px;
   border: solid transparent;
-  content: " ";
+  content: ' ';
   height: 0;
   width: 0;
   position: absolute;
@@ -247,11 +262,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.has-dropdown .dropdown li.active > a {
   color: #000 !important;
 }
-.gtco-nav ul li.has-dropdown:hover a, .gtco-nav ul li.has-dropdown:focus a {
+.gtco-nav ul li.has-dropdown:hover a,
+.gtco-nav ul li.has-dropdown:focus a {
   color: #000;
 }
 .gtco-nav ul li.btn-cta a {
-  color: #E0CA26;
+  color: rgb(255, 255, 0);
 }
 .gtco-nav ul li.btn-cta a span {
   background: #fff;
@@ -277,7 +293,8 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000 !important;
 }
 
-.gtco-social, .gtco-social li {
+.gtco-social,
+.gtco-social li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -286,12 +303,18 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
 }
-.gtco-social a, .gtco-social li a {
+.gtco-social a,
+.gtco-social li a {
   font-size: 20px !important;
   color: white !important;
 }
-.gtco-social a:hover, .gtco-social a:focus, .gtco-social a:active, .gtco-social li a:hover, .gtco-social li a:focus, .gtco-social li a:active {
-  color: #E0CA26 !important;
+.gtco-social a:hover,
+.gtco-social a:focus,
+.gtco-social a:active,
+.gtco-social li a:hover,
+.gtco-social li a:focus,
+.gtco-social li a:active {
+  color: rgb(255, 255, 0) !important;
 }
 
 #gtco-intro h2 {
@@ -299,7 +322,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   line-height: 1.4;
   font-size: 5vh;
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
 }
 @media screen and (max-width: 250px) {
   #gtco-intro h2 {
@@ -308,7 +331,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #gtco-intro .sub {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
 }
 #gtco-intro .dtc {
   min-height: 700px;
@@ -323,9 +346,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(top right, #E0CA26, #B73316);
-  background: -webkit-gradient(linear, right top, left bottom, from(#E0CA26), to(#B73316));
-  background: linear-gradient(top right, #E0CA26, #B73316);
+  background: -webkit-linear-gradient(top right, #b73316, rgb(255, 255, 0));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(#b73316),
+    to(rgb(255, 255, 0))
+  );
+  background: linear-gradient(top right, #b73316, rgb(255, 255, 0), #b73316);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -364,7 +393,9 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
 }
-.gototop a:hover, .gototop a:active, .gototop a:focus {
+.gototop a:hover,
+.gototop a:active,
+.gototop a:focus {
   text-decoration: none;
   outline: none;
 }
@@ -382,7 +413,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
 }
 #gtco-project .desc {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -419,16 +450,22 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-project .fh5co-project > a:after {
   opacity: 0;
   visibility: hidden;
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
   z-index: 8;
-  background: -webkit-linear-gradient(top right, #E0CA26, #B73316);
-  background: -webkit-gradient(linear, right top, left bottom, from(#E0CA26), to(#B73316));
-  background: linear-gradient(top right, #E0CA26, #B73316);
+  background: -webkit-linear-gradient(top right, rgb(255, 255, 0), #b73316);
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(rgb(255, 255, 0)),
+    to(#b73316)
+  );
+  background: linear-gradient(top right, rgb(255, 255, 0), #b73316);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -467,7 +504,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #gtco-project .fh5co-project > a:hover:after {
-  opacity: .7;
+  opacity: 0.7;
   visibility: visible;
 }
 @media screen and (max-width: 768px) {
@@ -514,17 +551,19 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
 }
 
-
 .gtco-nav-toggle {
   width: 25px;
   height: 25px;
   cursor: pointer;
   text-decoration: none;
 }
-.gtco-nav-toggle.active i::before, .gtco-nav-toggle.active i::after {
+.gtco-nav-toggle.active i::before,
+.gtco-nav-toggle.active i::after {
   background: #444;
 }
-.gtco-nav-toggle:hover, .gtco-nav-toggle:focus, .gtco-nav-toggle:active {
+.gtco-nav-toggle:hover,
+.gtco-nav-toggle:focus,
+.gtco-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
@@ -534,26 +573,28 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 25px;
   height: 2px;
   color: #252525;
-  font: bold 14px/.4 Helvetica;
+  font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
   background: #252525;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
-.gtco-nav-toggle i::before, .gtco-nav-toggle i::after {
+.gtco-nav-toggle i::before,
+.gtco-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 2px;
   background: #252525;
   position: absolute;
   left: 0;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 .gtco-nav-toggle.gtco-nav-white > i {
   color: #fff;
   background: #fff;
 }
-.gtco-nav-toggle.gtco-nav-white > i::before, .gtco-nav-toggle.gtco-nav-white > i::after {
+.gtco-nav-toggle.gtco-nav-white > i::before,
+.gtco-nav-toggle.gtco-nav-white > i::after {
   background: #fff;
 }
 
@@ -615,7 +656,6 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-
 .form-control {
   box-shadow: none;
   background: transparent;
@@ -624,10 +664,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 18px;
   font-weight: 300;
 }
-.form-control:active, .form-control:focus {
+.form-control:active,
+.form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #E0CA26;
+  border-color: rgb(255, 255, 0);
 }
 
 .row-pb-md {
