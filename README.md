@@ -1,3 +1,3 @@
-clarisaleu.github.io
+Link: https://clarisaleu.github.io/
 
-Old website located at: https://clarisaleu.github.io/OldWebsite
+Created with GitHub Pages and HTML5 UP 
